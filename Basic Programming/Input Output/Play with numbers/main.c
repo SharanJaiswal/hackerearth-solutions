@@ -21,7 +21,7 @@ int main()
 	{
 		scanf("\n%d %d", &l, &r);
 
-		printf("%d\n", (array[r - 1] - array[l - 2]) / (r - l + 1));
+		printf("%d\n", (array[r - 1] - array[l - 2]) / (r - l + 1)); /*how will it work for "l=1".Isn't l-2will be "-1", which is of course index out of bound error?
 	}
 
 	return 0;
